@@ -8,3 +8,7 @@ const boatPicture = document.querySelector('.content-destination img');
 funBus.addEventListener('click', (event) => {
     event.target.style.color = 'red';
 });
+
+funBus.addEventListener('dblclick', (event) => {
+    event.target.style.color = 'black';
+});
