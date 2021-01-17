@@ -20,3 +20,8 @@ navLinks.addEventListener('mouseover', (event) => {
 navLinks.addEventListener('mouseleave', (event) => {
     event.target.style.backgroundColor = 'white';
 });
+
+bottomPage.addEventListener('mouseover', (event) => {
+    event.target.style.backgroundColor = 'black';
+    event.target.style.color = 'red';
+});
