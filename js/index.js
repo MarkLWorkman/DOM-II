@@ -16,3 +16,7 @@ funBus.addEventListener('dblclick', (event) => {
 navLinks.addEventListener('mouseover', (event) => {
     event.target.style.backgroundColor = 'red';
 });
+
+navLinks.addEventListener('mouseleave', (event) => {
+    event.target.style.backgroundColor = 'white';
+});
