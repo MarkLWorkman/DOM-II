@@ -38,3 +38,11 @@ picture.addEventListener('click', (event) => {
 picture.addEventListener('dblclick', (event) => {
     event.target.style.border = 'none';
 });
+
+boatPicture.addEventListener('click', (event) => {
+    event.target.style.border = 'dotted';
+});
+
+boatPicture.addEventListener('dblclick', (event) => {
+    event.target.style.border = 'none';
+});
