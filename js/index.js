@@ -12,3 +12,7 @@ funBus.addEventListener('click', (event) => {
 funBus.addEventListener('dblclick', (event) => {
     event.target.style.color = 'black';
 });
+
+navLinks.addEventListener('mouseover', (event) => {
+    event.target.style.backgroundColor = 'red';
+});
