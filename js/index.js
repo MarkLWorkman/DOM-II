@@ -30,3 +30,11 @@ bottomPage.addEventListener('click', (event) => {
     event.target.style.backgroundColor = 'white';
     event.target.style.color = 'black';
 });
+
+picture.addEventListener('click', (event) => {
+    event.target.style.border = 'dotted';
+});
+
+picture.addEventListener('dblclick', (event) => {
+    event.target.style.border = 'none';
+});
