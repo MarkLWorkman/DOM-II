@@ -25,3 +25,8 @@ bottomPage.addEventListener('mouseover', (event) => {
     event.target.style.backgroundColor = 'black';
     event.target.style.color = 'red';
 });
+
+bottomPage.addEventListener('click', (event) => {
+    event.target.style.backgroundColor = 'white';
+    event.target.style.color = 'black';
+});
