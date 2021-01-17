@@ -46,3 +46,18 @@ boatPicture.addEventListener('click', (event) => {
 boatPicture.addEventListener('dblclick', (event) => {
     event.target.style.border = 'none';
 });
+
+textPara.addEventListener('mouseenter', (event) => {
+    event.target.style.backgroundColor = 'green';
+    event.target.style.color = 'blue';
+});
+
+textPara.addEventListener('mouseleave', (event) => {
+    event.target.style.backgroundColor = 'white';
+    event.target.style.color = 'black';
+});
+
+textPara2.addEventListener('mouseenter', (event) => {
+    event.target.style.backgroundColor = 'green';
+    event.target.style.color = 'blue';
+});
